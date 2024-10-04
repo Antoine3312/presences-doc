@@ -27,7 +27,7 @@ export default defineConfig({
     'link', {rel: 'icon', href: '/presences.svg'}
   ]],
   cleanUrls: true,
-  base: '/base/',
+  base: '/presences-doc/',
   rewrites: {
     'src/:folder/:file': ':folder/:file',
     'src/:file': ':file',
