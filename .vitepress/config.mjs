@@ -39,7 +39,30 @@ export default defineConfig({
       installationNav,
       usageNav
     ],
-
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          root: { 
+            translations: {
+              button: {
+                buttonText: 'Rechercher',
+              },
+              modal: {
+                displayDetails: 'Afficher en détail dans la liste',
+                resetButtonTitle: 'Réinitialiser la recherche',
+                noResultsText: 'Aucun résultat pour ',
+                footer: {
+                  selectText: 'pour sélectionner',
+                  navigateText: 'pour naviguer',
+                  closeText: 'pour fermer',
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     sidebar: [
       installationNav,
       usageNav
