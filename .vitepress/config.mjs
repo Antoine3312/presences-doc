@@ -35,7 +35,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Acceuil', link: '/' },
+      { text: 'Accueil', link: '/' },
       installationNav,
       usageNav
     ],
