@@ -27,3 +27,5 @@ features:
     details: Utilisation de l'outil personnalisable par l'utilisateur final.
 
 ---
+
+![UI](/public/UI_no-bg.png)
