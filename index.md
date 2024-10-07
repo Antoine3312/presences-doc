@@ -19,11 +19,11 @@ hero:
       link: /installation/getting-started
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
+  - icon: 🪶 
+    title: Léger
+    details: Une unique application pour les utilisateurs et administrateurs, accessible depuis un navigateur
+  - icon: ⚙️ 
+    title: Personnalisable
+    details: Utilisation de l'outil personnalisable par l'utilisateur final.
 
+---

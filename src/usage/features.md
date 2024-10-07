@@ -1,7 +1,7 @@
 # Les Fonctionnalités
 
 Voici l'ensemble des fonctionnalités qu'apporte l'outil `Présences`. Elles sont divisées en deux parties :
-- La première liste les fonctionnalités **primaires** qui répondent au besoin initial.
+- La première liste les fonctionnalités **primaires** qui répondent au [besoin initial](./presentation.md).
 - La seconde  liste les fonctionnalités **non-primaires** qui rendent l'utilisation de Présences plus agréable.
 
 ## I. Fonctionnalités Primaires

@@ -24,7 +24,7 @@ export default defineConfig({
   title: "Présences",
   description: "Documentation de Présences",
   head: [[
-    'link', {rel: 'icon', href: '/presences.svg'}
+    'link', {rel: 'icon', href: '/presences-doc/presences.svg'}
   ]],
   cleanUrls: true,
   base: '/presences-doc/',
