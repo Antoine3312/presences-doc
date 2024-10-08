@@ -28,3 +28,23 @@ img {
     justify-content: center; 
     align-items: center;
 }
+
+
+/* === Download icon for BaseRow === */
+
+
+.table_title {
+    display: flex;
+    gap: 7px;
+}
+.link {
+    display: flex;
+    gap: 2px;
+}
+.link > img {
+    height: 15px;
+    color: var(--vp-c-brand-1);
+}
+.link:hover > img {
+    filter: contrast(150%);
+}
