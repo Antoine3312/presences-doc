@@ -1,15 +1,5 @@
 <script setup>
 import { withBase } from 'vitepress'
-import{ data } from './db/loader.data.js'
-
-const click = () => {
-    let csvContent = data[0].map(e => e.join(","));
-    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
-    const url = window.URL.createObjectURL(blob);
-    console.log(url)
-}
-
-click() 
 </script>
 
 # Configurer votre instance BaseRow
@@ -31,8 +21,7 @@ Pour faire fonctionner Présences, il faut que votre base de données BaseRow co
 
 ## Listes des tables
 
-<!-- ### <span class="table_title"> Table <a :href="withBase('/db/Presences.csv')" class="link" >Presences <img alt="download"  src="/download_icon.png"> </a> </span> -->
-### <span class="table_title"> Table <a href="./db/Presences.csv" class="link" download="">Presences <img alt="download"  src="/download_icon.png"> </a> </span>
+### <span class="table_title"> Table <a :href="withBase('/Presences.csv')" class="link" >Presences <img alt="download"  src="/download_icon.png"> </a> </span>
 
 Listes les différentes présences des utilisateurs. Chaque tuple représente la présence d'une personne sur un poste, pour une journée donnée.
 
@@ -50,7 +39,7 @@ Listes les différentes présences des utilisateurs. Chaque tuple représente la
 :::
 
 
-### <span class="table_title"> Table <a :href="withBase('/db/Postes.csv')" class="link">Postes <img alt="download"  src="/download_icon.png"> </a> </span>
+### <span class="table_title"> Table <a :href="withBase('/Postes.csv')" class="link">Postes <img alt="download"  src="/download_icon.png"> </a> </span>
 
 Contient tout les postes de travail. Chaque poste est relié à un plan. Une personne ne peut s'inscrire que sur un seul poste à la fois.
 
@@ -72,7 +61,7 @@ Il faut rajouter les options suivantes dans la liste déroulante : <br>
  Réservé / Priorisé / Flex / Nu /Parking
 :::
 
-### <span class="table_title"> Table <a :href="withBase('/db/Plan.csv')" class="link">Plan <img alt="download"  src="/download_icon.png"> </a> </span> 
+### <span class="table_title"> Table <a :href="withBase('/Plan.csv')" class="link">Plan <img alt="download"  src="/download_icon.png"> </a> </span> 
 
 Liste l'ensemble des plan contennant chacun une liste de poste de travail.
 
@@ -105,7 +94,7 @@ Liste l'ensemble des plan contennant chacun une liste de poste de travail.
 | log          | Texte long                                                                          |
 :::
 
-### <span class="table_title">  Table <a :href="withBase('/db/Suppléments.csv')" class="link">Suppléments <img alt="download"  src="/download_icon.png"> </a> </span>
+### <span class="table_title">  Table <a :href="withBase('/Suppléments.csv')" class="link">Suppléments <img alt="download"  src="/download_icon.png"> </a> </span>
 
 Contient les informations relatives aux postes supplémentaires (point d'information et tâches)
 
