@@ -1,5 +1,15 @@
 <script setup>
 import { withBase } from 'vitepress'
+import{ data } from './db/loader.data.js'
+
+const click = () => {
+    let csvContent = data[0].map(e => e.join(","));
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = window.URL.createObjectURL(blob);
+    console.log(url)
+}
+
+click() 
 </script>
 
 # Configurer votre instance BaseRow
