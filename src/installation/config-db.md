@@ -11,7 +11,7 @@ Pour faire fonctionner Présences, il faut que votre base de données BaseRow co
 
 - <span class="title-dot"><div class="dot">1</div>**Créer les tables**</span>
   Ajouter l'ensemble des tables en important chaque fichier `.csv` que vous pouvez retrouver dans la section [Liste des tables](#listes-des-tables). 
-- <span class="title-dot"><div class="dot">2</div>**Configuer les type**</span>
+- <span class="title-dot"><div class="dot">2</div>**Configurer les types**</span>
   Configurer les types de chaque colonne pour qu'ils correspondent aux types définies dans la section [Liste des tables](#listes-des-tables). 
 - <span class="title-dot"><div class="dot">3</div>**Ajouter vos données**</span>
   Dans l'order suivant, insérer chacune de vos données :
